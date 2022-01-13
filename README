@@ -1,0 +1,7 @@
+# Fooling around with Kafka Java SDK
+
+$ brew install kafka
+$ brew services start zookeeper
+$ brew services start kafka
+$ mvn compile exec:java -Dexec.mainClass=com.folkol.lab.kafka.Producer -Dexec.args=1337
+$ mvn compile exec:java -Dexec.mainClass=com.folkol.lab.kafka.Consumer  # -Dexec.args="reindex"
