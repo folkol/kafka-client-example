@@ -1,4 +1,4 @@
-# Fooling around with Kafka Java SDK
+# Fooling around with Kafka Java SDK, in particular resetting consumer offset to 'start over'
 
 $ brew install kafka
 $ brew services start zookeeper
